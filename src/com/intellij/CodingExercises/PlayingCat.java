@@ -24,7 +24,7 @@ public class PlayingCat
         }
         else
         {
-            if (temperature >= 25 && temperature <= 35)
+            if (temperature >= 25 && temperature <= 35 )
             {
                 return true;
             }

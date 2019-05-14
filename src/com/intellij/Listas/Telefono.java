@@ -19,7 +19,7 @@ public class Telefono
     {
         if (buscarContacto(contacto.getNombre()) >= 0 )
         {
-            System.out.println("El contacto ya existe en el directorio");
+            System.out.println("El contacto ya existe en el directorio" );
             return false;
         }
 

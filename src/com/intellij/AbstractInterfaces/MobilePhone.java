@@ -22,7 +22,7 @@ public class MobilePhone implements ITelephone
     {
         if (isOn)
         {
-            System.out.println("Now ringing " + phoneNumber + " on mobile phone");
+            System.out.println("Now ringing " + phoneNumber + " on mobile phone.");
         }
         else
         {

@@ -20,7 +20,7 @@ public class FlourPacker
         {
             int bCount = bigCount * 5, sCount = smallCount;
 
-            if (bCount > goal && sCount == 0)
+            if (bCount > goal && sCount == 0 )
             {
                 packed = false;
             }

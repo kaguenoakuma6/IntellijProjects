@@ -20,7 +20,7 @@ public class VipCostumer
 
     public VipCostumer(double creditLimit, String email)
     {
-        this("Default name", creditLimit, email);
+        this("Default name", creditLimit, email );
     }
 
     /*Inicio Constructores*/

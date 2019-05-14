@@ -18,7 +18,7 @@ public class SumDigits
             int suma = 0;
             while ( numero > 0 )
             {
-                int digito = numero % 10 ;
+                int digito = numero % 10;
 
                 suma += digito;
 

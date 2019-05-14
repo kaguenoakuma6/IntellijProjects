@@ -29,7 +29,7 @@ public class ImplementsTelefono
         impMenu();
         while (!salir)
         {
-            System.out.print("Ingresa la accion deseada: ");
+            System.out.print("Ingresa la accion deseada: " );
             opcion = scanner.nextInt();
             scanner.nextLine();
 

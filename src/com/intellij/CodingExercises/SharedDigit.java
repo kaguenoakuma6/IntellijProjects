@@ -19,7 +19,7 @@ public class SharedDigit
 
             while (num1 > 0)
             {
-                digit1 = num1 % 10;
+                digit1 = num1 % 10 ;
                 num1 /= 10;
 
                 while (num2 > 0 )

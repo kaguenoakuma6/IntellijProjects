@@ -15,7 +15,7 @@ public class Album
         this.canciones = new ArrayList<Cancion>();
     }
 
-    public boolean agregarCancion(String titulo, double duracion)
+    public boolean agregarCancion(String titulo, double duracion )
     {
         if (buscarCancion(titulo) == null)
         {

@@ -18,7 +18,7 @@ public class Prueba
 
         imprimirLista(lugaresVisitar);
 
-        agregaOrdenado(lugaresVisitar,"Alice Springs");
+        agregaOrdenado(lugaresVisitar,"Alice Springs" );
         agregaOrdenado(lugaresVisitar,"Darwin");
 
         imprimirLista(lugaresVisitar);

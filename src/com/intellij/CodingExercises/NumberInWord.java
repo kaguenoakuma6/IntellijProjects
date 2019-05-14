@@ -17,7 +17,7 @@ public class NumberInWord
         printNumberInWord(20);
     }
 
-    public static void printNumberInWord ( int number )
+    public static void printNumberInWord ( int number)
     {
         switch ( number )
         {

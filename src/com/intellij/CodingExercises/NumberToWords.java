@@ -44,7 +44,7 @@ public class NumberToWords
                         break;
 
                     case 1:
-                        numberWord += "One";
+                        numberWord += "One" ;
                         break;
 
                     case 2:

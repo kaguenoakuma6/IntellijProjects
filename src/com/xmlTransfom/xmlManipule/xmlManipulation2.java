@@ -18,7 +18,7 @@ public class xmlManipulation2
             // PagarDispCredito.xsd
             DocumentBuilderFactory docBfact = DocumentBuilderFactory.newInstance();
             DocumentBuilder docBuild = docBfact.newDocumentBuilder();
-            Document doc = docBuild.parse(new File("/home/kuro/Documentos/JavaProyect/books.xml"));
+            Document doc = docBuild.parse(new File("/home/kuro/Documentos/JavaProyect/books.xml") );
 
             doc.getDocumentElement().normalize();
 

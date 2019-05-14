@@ -13,7 +13,7 @@ public class NumberPalindrome
         System.out.println(isPalindrome(707));
         System.out.println(isPalindrome(11212));
         System.out.println(isPalindrome(12321));
-        System.out.println(isPalindrome(1001));
+        System.out.println(isPalindrome(1001) );
         System.out.println(isPalindrome(11));
 
 

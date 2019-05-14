@@ -22,7 +22,7 @@ public class OpenFilegraph
             String fName = file.getName();
             String directory = absPpath.substring(0,absPpath.indexOf(fName));
             String parent = file.getParent()+"/";
-            System.out.println("AbsulutePath: " + absPpath + "\nFileName: " + fName + "\nNewPath: " + directory + "\nParent: " +parent);
+            System.out.println("AbsulutePath: " + absPpath + "\nFileName: " + fName + "\nNewPath: " + directory + "\nParent: " +parent );
         }
     }
 }

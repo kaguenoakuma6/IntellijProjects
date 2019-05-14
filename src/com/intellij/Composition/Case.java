@@ -15,7 +15,7 @@ public class Case
 
     public void pressPowerButton()
     {
-        System.out.println("Power Button Pressed");
+        System.out.println("Power Button Pressed" );
     }
 
     public String getModel()

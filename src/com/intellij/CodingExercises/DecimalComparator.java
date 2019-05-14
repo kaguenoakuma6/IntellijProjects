@@ -11,7 +11,7 @@ public class DecimalComparator
         res = areEqualByThreeDecimalPlaces(3.176 , 3.175 );
         System.out.println(res);
 
-        res = areEqualByThreeDecimalPlaces(3.0 , 3.0 );
+        res = areEqualByThreeDecimalPlaces(3.0 , 3.0);
         System.out.println(res);
     }
 

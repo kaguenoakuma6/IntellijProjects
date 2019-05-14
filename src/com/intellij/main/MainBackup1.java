@@ -14,6 +14,7 @@ public class MainBackup1
 
         VipCostumer costumer2 = new VipCostumer("hola",500.0,"myemail@mail.com");
         System.out.println("Name: " + costumer2.getName() + " Credit: " + costumer2.getCreditLimit() + " email: " +costumer2.getEmail());
+        //
         /*
         // Bank accout test
         int option = 0;

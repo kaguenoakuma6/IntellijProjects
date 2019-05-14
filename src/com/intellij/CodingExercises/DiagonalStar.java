@@ -12,7 +12,7 @@ public class DiagonalStar
     {
         if (number < 5)
         {
-            System.out.println("Invalida Value");
+            System.out.println("Invalid Value");
         }
         else
         {

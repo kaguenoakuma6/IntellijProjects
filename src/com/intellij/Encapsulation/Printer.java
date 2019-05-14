@@ -18,7 +18,7 @@ public class Printer
 
     public void print(int pages)
     {
-        int localPages = 0, aux, contt;
+        int localPages = 0, aux, contt ;
         boolean printed = true;
 
         if( this.duplex )

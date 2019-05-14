@@ -14,7 +14,7 @@ public class AbstractClassImplements
         parrot.eat();
         parrot.fly();
 
-        Penguin penguin = new Penguin("Emperor");
+        Penguin penguin = new Penguin("Emperor" );
         penguin.fly();
     }
 }

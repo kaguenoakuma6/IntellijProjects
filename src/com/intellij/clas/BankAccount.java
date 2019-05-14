@@ -17,7 +17,7 @@ public class BankAccount
 
     public BankAccount(int accountNumber, double balance, String name, String email, String phone)
     {
-        System.out.println("Inicializando las variables de la clase");
+        System.out.println("Inicializando las variables de la clase.");
         this.accountNumber = accountNumber;
         this.balance = balance;
         this.name = name;

@@ -30,6 +30,6 @@ public class Bedroom
 
     public void makeBed()
     {
-        System.out.println("Bedroom -> makingBed()");
+        System.out.println("Bedroom -> makingBed()") ;
     }
 }

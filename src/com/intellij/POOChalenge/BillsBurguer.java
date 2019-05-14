@@ -16,7 +16,7 @@ public class BillsBurguer
         System.out.println("Total Healthy Burger Price is: " + healthyBurger.hamburgerAddAddition());
 
         DeluxeBurger deluxeBurger = new DeluxeBurger();
-        deluxeBurger.addAddition3("Should not do this", 50.53);
+        deluxeBurger.addAddition3("Should not do this", 50.53 );
         deluxeBurger.hamburgerAddAddition();
     }
 }

@@ -24,7 +24,7 @@ public class SaveableImplements
 
         ISaveable werewolf = new Monster("Werewolf", 20, 200);
         // Se realiza un casteo de la interfaz a la clase para poder acceder a sus metodos
-        System.out.println("Strength: " + ((Monster) werewolf).getStrength());
+        System.out.println("Strength: " + ((Monster) werewolf).getStrength() );
         System.out.println(werewolf);
         saveObject(werewolf);
     }

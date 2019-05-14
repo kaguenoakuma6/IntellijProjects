@@ -2,6 +2,7 @@ package com.intellij.Encapsulation;
 
 public class MainBackup
 {
+    //
     /*
     Player player = new Player();
 

@@ -2,6 +2,7 @@ package com.intellij.CompositionChalenge;
 
 public class CompositionImplementation
 {
+    //
     /*
 
         Dimensions dimensions = new Dimensions(20,20,5);

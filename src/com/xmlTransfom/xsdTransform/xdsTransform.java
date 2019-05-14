@@ -19,7 +19,7 @@ public class xdsTransform
             // PagarDispCredito.xsd
             DocumentBuilderFactory docBfact = DocumentBuilderFactory.newInstance();
             DocumentBuilder docBuild = docBfact.newDocumentBuilder();
-            Document doc = docBuild.parse(new File("/home/kuro/Documentos/JavaProyect/PagarDispCredito.xsd"));
+            Document doc = docBuild.parse(new File("/home/kuro/Documentos/JavaProyect/PagarDispCredito.xsd") );
 
             doc.getDocumentElement().normalize();
 

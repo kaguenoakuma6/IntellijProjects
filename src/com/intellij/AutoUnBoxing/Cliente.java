@@ -14,7 +14,7 @@ public class Cliente
         agregarTransaccion(primerTransac);
     }
 
-    public void agregarTransaccion(double monto)
+    public void agregarTransaccion(double monto )
     {
         this.transacciones.add(monto);
     }

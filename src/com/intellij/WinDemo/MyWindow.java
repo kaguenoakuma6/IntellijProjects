@@ -29,6 +29,6 @@ public class MyWindow extends Frame
         g.setFont(sansSerifLarge);
         g.drawString("Java Developer Course",60,60);
         g.setFont(sansSerifSmall);
-        g.drawString("starts",60,100);
+        g.drawString("starts",60,100 );
     }
 }

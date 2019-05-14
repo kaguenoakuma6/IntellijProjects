@@ -28,7 +28,7 @@ public class ReadingUserInputChallenge
             }
             else
             {
-                System.out.println("Invalid Value");
+                System.out.println("Invalid Value" );
             }
             scanner.nextLine();
         }

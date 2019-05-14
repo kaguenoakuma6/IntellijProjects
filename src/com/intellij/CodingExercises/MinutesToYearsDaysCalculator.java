@@ -22,7 +22,7 @@ public class MinutesToYearsDaysCalculator
             tmp = (int) (minutes) % (60*24*365);
             day = tmp / (60*24);
 
-            System.out.println(minutes + " min = " + year + " y and " + day + " d");
+            System.out.println(minutes + " min = " + year + " y and " + day + " d" );
         }
         else
         {

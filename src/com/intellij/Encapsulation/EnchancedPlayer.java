@@ -2,7 +2,7 @@ package com.intellij.Encapsulation;
 
 public class EnchancedPlayer
 {
-    private String name, weapon;
+    private String name, weapon ;
     private int healt = 100;
 
     public EnchancedPlayer(String name, String weapon, int healt)

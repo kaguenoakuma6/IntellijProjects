@@ -24,6 +24,6 @@ public class Contacto
 
     public static Contacto crearContacto (String nombre, String telefono)
     {
-        return new Contacto(nombre, telefono);
+        return new Contacto(nombre, telefono );
     }
 }

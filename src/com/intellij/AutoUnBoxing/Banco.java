@@ -40,7 +40,7 @@ public class Banco
     {
         for (int a = 0; a < this.sucursales.size(); a++)
         {
-            Sucursal encontSucursal = this.sucursales.get(a);
+            Sucursal encontSucursal = this.sucursales.get(a );
 
             if (encontSucursal.getNombre().equals(nombreSucursal))
             {

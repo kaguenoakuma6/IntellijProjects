@@ -33,7 +33,7 @@ public class OtherClass
             tmp = number;
             while ( tmp > 0 )
             {
-                int digito = tmp % 10;
+                int digito = tmp % 10 ;
 
                 reverse *= 10;
                 reverse += digito;

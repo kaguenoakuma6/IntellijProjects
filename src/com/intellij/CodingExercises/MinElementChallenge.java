@@ -11,7 +11,7 @@ public class MinElementChallenge
     {
         int count = 0, min = 0;
 
-        System.out.print("Ingresa el numero de elementos del array: ");
+        System.out.print("Ingresa el numero de elementos del array: " );
         count = scanner.nextInt();
         scanner.nextLine();
 

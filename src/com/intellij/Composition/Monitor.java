@@ -7,7 +7,7 @@ public class Monitor
 
     private Resolution nativeResolution;
 
-    public Monitor(String model, String manufacturer, int size, Resolution nativeResolution)
+    public Monitor(String model, String manufacturer, int size, Resolution nativeResolution )
     {
         this.model = model;
         this.manufacturer = manufacturer;

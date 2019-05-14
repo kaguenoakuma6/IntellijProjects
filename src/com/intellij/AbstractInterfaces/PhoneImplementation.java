@@ -5,7 +5,7 @@ public class PhoneImplementation
     public static void main(String[] args)
     {
         ITelephone phone;
-        phone = new DeskPhone(123456789);
+        phone = new DeskPhone(123456789 );
 
         phone.powerOn();
         phone.callPhone(123456789);

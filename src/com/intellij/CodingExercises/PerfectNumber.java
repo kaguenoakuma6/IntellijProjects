@@ -28,7 +28,7 @@ public class PerfectNumber
 
             if (number == sum )
             {
-                isPerfect = true;
+                isPerfect = true ;
             }
 
             return isPerfect;

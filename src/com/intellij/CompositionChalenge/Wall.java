@@ -11,6 +11,6 @@ public class Wall
 
     public String getDirection()
     {
-        return direction;
+        return direction ;
     }
 }

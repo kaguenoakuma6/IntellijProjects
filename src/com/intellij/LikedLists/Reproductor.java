@@ -22,7 +22,7 @@ public class Reproductor
 
         albums.add(album);
 
-        album = new Album("For those about to rock", "AC/DC");
+        album = new Album("For those about to rock", "AC/DC" );
         album.agregarCancion("Uno", 3.5);
         album.agregarCancion("Dos", 4.5);
         album.agregarCancion("Tres", 2.5);

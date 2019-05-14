@@ -94,7 +94,7 @@ public class Main
             System.out.println("movie # " + a + " : " + movie.getName() +"\n" + "Plot: " + movie.plot() + "\n");
         }
     }
-
+/**/
     public static Movie randomMovie()
     {
         int randomNumber = ( int ) ( Math.random() * 5 ) + 1;

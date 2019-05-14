@@ -21,7 +21,7 @@ public class FirstLastDigitSum
 
             while (number > 0)
             {
-                digit = number % 10;
+                digit = number % 10 ;
 
                 if (ini == 0)
                 {

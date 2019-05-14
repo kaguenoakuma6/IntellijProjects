@@ -11,7 +11,7 @@ public class LargestPrime
         System.out.println(getLargestPrime(-1));
     }
 
-    public static int getLargestPrime(int number)
+    public static int getLargestPrime(int number )
     {
         if (number > 1)
         {

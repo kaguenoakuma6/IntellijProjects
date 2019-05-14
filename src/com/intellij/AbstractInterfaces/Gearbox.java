@@ -34,7 +34,7 @@ public class Gearbox
         if ((newGear >= 0) && (newGear < gears.size()) && this.clutchIsIn)
         {
             this.currentGear = newGear;
-            System.out.println("Gear " + newGear + " selected" + ".");
+            System.out.println("Gear " + newGear + " selected" + ". ");
         }
         else
         {

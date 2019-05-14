@@ -19,7 +19,7 @@ public class base64Encrypt
 
         String stDecod = new String(decod);
 
-        System.out.println("tamaño: " + stDecod.length() + "\nCadena: " + stDecod);
+        System.out.println("tamaño: " + stDecod.length() + "\nCadena: " + stDecod );
 
     }
 }

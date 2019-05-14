@@ -31,7 +31,7 @@ public class Sucursal
 
     public boolean agregarMovimientoCliente(String nombreCliente, double monto)
     {
-        Cliente existCliente = buscaCliente(nombreCliente);
+        Cliente existCliente = buscaCliente(nombreCliente );
 
         if (existCliente != null)
         {

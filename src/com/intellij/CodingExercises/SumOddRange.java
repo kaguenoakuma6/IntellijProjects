@@ -15,7 +15,7 @@ public class SumOddRange
     public static int sumOdd( int start, int end )
     {
         int suma = 0;
-        if ( (end >= start ) && ( end > 0 && start > 0) )
+        if ( (end >= start ) && ( end > 0 && start > 0))
         {
             for (int a = start; a <= end; a++)
             {

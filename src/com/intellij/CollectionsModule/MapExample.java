@@ -13,7 +13,7 @@ public class MapExample
         languages.put("Python", "an interpreted, object-oriented, high level programing language with dynamic semantics");
         languages.put("Algol", "an algorithmic language");
         languages.put("BASIC", "Beginners All Purposes Symbolic Instruction Code");
-        languages.put("Lisp", "Therein lines madness");
+        languages.put("Lisp", "Therein lines madness" );
 
         System.out.println(languages.get("Java"));
 

@@ -2,7 +2,7 @@ package com.intellij.AbstractInterfaces;
 
 public abstract class Bird extends Animal
 {
-    public Bird(String name)
+    public Bird(String name )
     {
         super(name);
     }

@@ -17,7 +17,7 @@ public class Hamburger
     private String addition4Name;
     private double addition4Price;
 
-    public Hamburger(String name, String meat, String breadRoll, double price)
+    public Hamburger(String name, String meat, String breadRoll, double price )
     {
         this.name = name;
         this.meat = meat;

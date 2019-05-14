@@ -21,7 +21,7 @@ public class LastDigitChecker
             digit2 = num2 % 10;
             digit3 = num3 % 10;
 
-            if (digit1 == digit2 || digit1 == digit3 || digit2 == digit3)
+            if (digit1 == digit2 || digit1 == digit3 || digit2 == digit3 )
             {
                 rett = true;
             }

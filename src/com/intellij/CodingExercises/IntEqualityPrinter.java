@@ -22,7 +22,7 @@ public class IntEqualityPrinter
             }
             else if (num != num2 && num != num3 && num2 != num3)
             {
-                System.out.println("All numbers are different" );
+                System.out.println("All numbers are different");
             }
             else
             {

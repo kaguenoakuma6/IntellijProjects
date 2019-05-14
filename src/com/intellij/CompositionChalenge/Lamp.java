@@ -20,7 +20,7 @@ public class Lamp
 
     public void turnOff()
     {
-        System.out.println("Lamp -> Turning Off");
+        System.out.println("Lamp -> Turning Off" );
     }
 
     public String getStyle()

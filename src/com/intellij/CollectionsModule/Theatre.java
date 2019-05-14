@@ -18,7 +18,7 @@ public class Theatre
         {
             for (int seatNum = 1; seatNum <= seatsPerRows; seatNum++)
             {
-                Seat seat = new Seat(row + String.format("%02d", seatNum));
+                Seat seat = new Seat(row + String.format("%02d", seatNum) );
                 seats.add(seat);
             }
         }

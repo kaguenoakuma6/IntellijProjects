@@ -21,7 +21,7 @@ public class PC
 
     private void drawLogo()
     {
-        monitor.drawPixelAt(900,700,"green");
+        monitor.drawPixelAt(900,700,"green" );
     }
 
 

@@ -18,7 +18,7 @@ public class TheatreImplementation
 
         else
         {
-            System.out.println("Lo sentimos el asiento esta ocupado!");
+            System.out.println("Lo sentimos el asiento esta ocupado!" );
         }
 
         if(theatre.reserveSeat("H11"))

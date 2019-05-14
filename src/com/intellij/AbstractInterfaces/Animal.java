@@ -2,7 +2,7 @@ package com.intellij.AbstractInterfaces;
 
 public abstract class Animal
 {
-    private String name;
+    private String name ;
 
     public Animal(String name)
     {

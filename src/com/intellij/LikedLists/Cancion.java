@@ -21,6 +21,6 @@ public class Cancion
     @Override
     public String toString()
     {
-        return this.titulo + ": " + this.duracion;
+        return this.titulo + ": " + this.duracion ;
     }
 }

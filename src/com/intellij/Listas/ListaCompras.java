@@ -19,7 +19,7 @@ public class ListaCompras
 
     public void impListaCompras()
     {
-        System.out.println("Hay " + listaCompras.size() + " artículos en la lista. \nImprimiendo lista.............");
+        System.out.println("Hay " + listaCompras.size() + " artículos en la lista. \nImprimiendo lista............");
 
         for (int u = 0; u < listaCompras.size(); u++)
         {

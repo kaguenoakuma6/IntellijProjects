@@ -20,7 +20,7 @@ public class ArrayChalenge
     {
         int[] array = new int[leng];
 
-        System.out.println("Ingresa " + leng + " numeros \n");
+        System.out.println("Ingresa " + leng + " numeros \n ");
 
         for ( int i = 0; i < array.length; i++)
         {

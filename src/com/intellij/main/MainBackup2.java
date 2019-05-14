@@ -11,6 +11,7 @@ public class MainBackup2
         Dog dog = new Dog("Boby", 8, 20, 2, 4, 1, 30, "long silky");
         dog.eat();
         dog.run();*/
+        /**/
         Outlander outlander = new Outlander(30);
         outlander.steer(50);
         outlander.accelerate(30);

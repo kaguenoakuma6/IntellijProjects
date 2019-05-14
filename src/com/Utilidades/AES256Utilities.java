@@ -14,7 +14,7 @@ public class AES256Utilities
             String desecBase = "KiWtFzIb5gFCU4H0cotzBQ==", desenc ="";
 
             //SecretKeySpec keySpec = new SecretKeySpec(token.getBytes(), "AES");
-            Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5Padding");
+            Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5Padding" );
 
             //cipher.init(Cipher.DECRYPT_MODE, keySpec);
 

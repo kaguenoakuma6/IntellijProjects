@@ -27,7 +27,7 @@ public class ImplementacionListas
                     impInstrucciones();
                     break;
                 case 1:
-                    listaCompras.impListaCompras();
+                    listaCompras.impListaCompras() ;
                     break;
                 case 2:
                     agregarArticulo();

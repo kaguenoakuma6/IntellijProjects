@@ -27,7 +27,7 @@ public class GreatestCommonDivisor
 
             while ( a <= control )
             {
-                if ( ( first % a == 0 ) && ( second % a == 0 ) )
+                if ( ( first % a == 0 ) && ( second % a == 0 ))
                 {
                     maxDivisor = a;
                 }

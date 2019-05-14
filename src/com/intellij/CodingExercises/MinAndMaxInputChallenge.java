@@ -8,7 +8,7 @@ public class MinAndMaxInputChallenge
     public static void main(String[] args)
     {
         int min = Integer.MAX_VALUE, max = Integer.MIN_VALUE, cont = 0;
-        Scanner scanner =  new Scanner(System.in).useLocale(Locale.US);
+        Scanner scanner =  new Scanner(System.in).useLocale(Locale.US );
 
         while (true)
         {

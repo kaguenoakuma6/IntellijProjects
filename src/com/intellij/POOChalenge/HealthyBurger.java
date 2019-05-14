@@ -16,7 +16,7 @@ public class HealthyBurger extends Hamburger
         this.healthyExtra1Price = price;
     }
 
-    public void addHealtAddition2(String name, double price)
+    public void addHealtAddition2(String name, double price )
     {
         this.healthyExtra2Name = name;
         this.healthyExtra2Price = price;

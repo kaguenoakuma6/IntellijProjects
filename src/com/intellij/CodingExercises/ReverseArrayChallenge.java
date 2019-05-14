@@ -19,7 +19,7 @@ public class ReverseArrayChallenge
 
     private static void reverse(int[] Array)
     {
-        int tmp = 0, len = Array.length - 1, mid = Array.length / 2;
+        int tmp = 0, len = Array.length - 1, mid = Array.length / 2 ;
 
         for (int i = 0; i < mid; i++)
         {

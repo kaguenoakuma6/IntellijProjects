@@ -23,7 +23,7 @@ public class Outlander extends Car
         {
             changeGear(1);
         }
-        else if (newVelocity > 10 && newVelocity <= 20 )
+        else if (newVelocity > 10 && newVelocity <= 20)
         {
             changeGear(2);
         }

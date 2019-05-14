@@ -31,7 +31,7 @@ public class xmlManipulation
             JFileChooser fChoose = new JFileChooser();
             fChoose.setAcceptAllFileFilterUsed(false);
            // FileNameExtensionFilter xsdFilter = new FileNameExtensionFilter("XSD File Filter", "xsd");
-            FileNameExtensionFilter xsdFilter = new FileNameExtensionFilter("XML File Filter", "xml");
+            FileNameExtensionFilter xsdFilter = new FileNameExtensionFilter("XML File Filter", "xml" );
             fChoose.addChoosableFileFilter(xsdFilter);
             int aprove = fChoose.showOpenDialog(null);
 

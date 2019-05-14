@@ -11,7 +11,7 @@ public class Player
 
         if ( this.health <= 0 )
         {
-            System.out.println("Player knocked out");
+            System.out.println("Player knocked out" );
         }
     }
 

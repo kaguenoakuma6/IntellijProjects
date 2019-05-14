@@ -17,6 +17,6 @@ public class Resolution
 
     public int getHeight()
     {
-        return height;
+        return height ;
     }
 }
