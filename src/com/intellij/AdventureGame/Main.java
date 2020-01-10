@@ -20,5 +20,24 @@ public class Main
         locations.put(5, new Location(5, "Estas en el bosque"));
         //locations.put(0, new Location(0, "Estas sentado frente a una computadora aprendiendo Java"));
         //locations.put(0, new Location(0, "Estas sentado frente a una computadora aprendiendo Java"));
+
+        int loc = 1;
+
+        while(true)
+        {
+            System.out.println(locations.get(loc).getDescription());
+
+            if ( loc == 0 )
+            {
+                break;
+            }
+
+            loc = scanner.nextInt();
+
+            if (!locations.containsKey(loc))
+            {
+                System.out.println("No puedes ir en esa dirección");
+            }
+        }
     }
 }
