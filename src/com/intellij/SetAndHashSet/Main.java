@@ -1,5 +1,7 @@
 package com.intellij.SetAndHashSet;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -25,46 +27,91 @@ public class Main
         solarSystem.put(temp.getName(), temp);
         planets.add(temp);
 
-        temp = new HeavenlyBody("Moon", 27);
-        solarSystem.put(temp.getName(), temp);
-        planets.add(temp);
+        HeavenlyBody tempMoon = new HeavenlyBody("Moon", 27);
+        solarSystem.put(tempMoon.getName(), tempMoon);
+        temp.addMoon(tempMoon);
 
         temp = new HeavenlyBody("Mars", 687);
         solarSystem.put(temp.getName(), temp);
         planets.add(temp);
 
-        temp = new HeavenlyBody("Deimos", 1.3);
-        solarSystem.put(temp.getName(), temp);
-        planets.add(temp);
+        tempMoon = new HeavenlyBody("Deimos", 1.3);
+        solarSystem.put(tempMoon.getName(), tempMoon);
+        temp.addMoon(tempMoon);
 
-        temp = new HeavenlyBody("Phobos", 0.3);
-        solarSystem.put(temp.getName(), temp);
-        planets.add(temp);
+        tempMoon = new HeavenlyBody("Phobos", 0.3);
+        solarSystem.put(tempMoon.getName(), tempMoon);
+        temp.addMoon(tempMoon);
 
         temp = new HeavenlyBody("Jupiter", 4332);
         solarSystem.put(temp.getName(), temp);
         planets.add(temp);
 
-        temp = new HeavenlyBody("Io", 1.8);
+        tempMoon = new HeavenlyBody("Io", 1.8);
+        solarSystem.put(tempMoon.getName(), tempMoon);
+        temp.addMoon(tempMoon);
+
+        tempMoon = new HeavenlyBody("Europa", 3.5);
+        solarSystem.put(tempMoon.getName(), tempMoon);
+        temp.addMoon(tempMoon);
+
+        tempMoon = new HeavenlyBody("Ganymede", 7.1);
+        solarSystem.put(tempMoon.getName(), tempMoon);
+        temp.addMoon(tempMoon);
+
+        tempMoon = new HeavenlyBody("Callisto", 16.7);
+        solarSystem.put(tempMoon.getName(), tempMoon);
+        temp.addMoon(tempMoon);
+
+        temp = new HeavenlyBody("Saturn", 10759);
         solarSystem.put(temp.getName(), temp);
         planets.add(temp);
 
-        temp = new HeavenlyBody("Moon", 27);
+        temp = new HeavenlyBody("Uranus", 30660);
         solarSystem.put(temp.getName(), temp);
         planets.add(temp);
 
-        temp = new HeavenlyBody("Venus", 225);
+        temp = new HeavenlyBody("Neptune", 165);
         solarSystem.put(temp.getName(), temp);
         planets.add(temp);
 
-        temp = new HeavenlyBody("Earth", 356);
+        temp = new HeavenlyBody("Pluto", 248);
         solarSystem.put(temp.getName(), temp);
         planets.add(temp);
 
-        temp = new HeavenlyBody("Moon", 27);
-        solarSystem.put(temp.getName(), temp);
-        planets.add(temp);
+        System.out.println("planetas: ");
 
+        for (HeavenlyBody planet : planets)
+        {
+            System.out.println("\t" + planet.getName());
+        }
+
+        System.out.println("lunas de jupiter: ");
+
+        HeavenlyBody planeta = solarSystem.get("Jupiter");
+
+        for (HeavenlyBody luna : planeta.getSatellites())
+        {
+            System.out.println("\t" + luna.getName());
+
+        }
+
+        Set<HeavenlyBody> moons = new HashSet<>();
+
+        for (HeavenlyBody planet : planets )
+        {
+            moons.addAll(planet.getSatellites());
+        }
+
+        System.out.println("Todas las lunas: ");
+
+        for (HeavenlyBody luna : moons)
+        {
+            System.out.println("\t" + luna.getName());
+
+        }
 
     }
+
+
 }
