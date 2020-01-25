@@ -31,7 +31,7 @@ public class ListaExistencias
         return 0;
     }
 
-    public int venderArtuculos(String articulo, int cantidad)
+    public int venderArticulos(String articulo, int cantidad)
     {
         ArticulosExistentes existentes = lista.getOrDefault(articulo, null);
 
@@ -49,8 +49,29 @@ public class ListaExistencias
         return lista.get(key);
     }
 
-    public Map<String, ArticulosExistentes> artuculos()
+    public Map<String, ArticulosExistentes> articulos()
     {
         return Collections.unmodifiableMap(lista);
+    }
+
+    @Override
+    public String toString()
+    {
+        String s = "\nLista de Articulos";
+
+        double costoTotal = 0.0;
+
+        for (Map.Entry<String, ArticulosExistentes> articulo : lista.entrySet())
+        {
+            ArticulosExistentes articulosExistentes = articulo.getValue();
+
+            double costoArticulo = articulosExistentes.getPrecio() * articulosExistentes.getExistencias();
+
+            s = s + articulosExistentes + ". hay " + articulosExistentes.getExistencias() + " en existencia. Costo del articulo: " + costoArticulo + "\n";
+
+            costoTotal += costoArticulo;
+        }
+
+        return s + "Costo Total: " + costoTotal;
     }
 }
